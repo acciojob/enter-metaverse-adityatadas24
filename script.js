@@ -1,13 +1,13 @@
 //your JS code here. If required.
 function change(){
-    const bold = document.getElementById("status");
+    const entered = document.getElementById("status");
  
-    let currentContent = getComputedStyle(bold).textContent;
+    let currentContent = getComputedStyle(entered).textContent;
 
     if(currentContent == "Enter the Metaverse"){
-        bold.textContent = "entered ";
+        entered.textContent = "entered ";
     }
     else {
-        bold.textContent = "Entered Metaverse", bold.style.fontSize = "30px";
+        entered.textContent = "Entered Metaverse", entered.style.fontSize = "30px";
     }
 }
