@@ -7,7 +7,7 @@ function change(){
     if(currentContent == "Enter the Metaverse"){
         bold.textContent = "entered ";
     }
-    else{
-        bold.textContent = "Entered Metaverse", bold.style.fontWeight = " bolder";
+    else {
+        bold.textContent = "Entered Metaverse", bold.style.fontSize = "30px";
     }
 }
