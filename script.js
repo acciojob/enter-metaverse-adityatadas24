@@ -1,13 +1,8 @@
-//your JS code here. If required.
-function change(){
-    const entered = document.getElementById("status");
- 
-    let currentContent = getComputedStyle(entered).textContent;
+const para = document.getElementById("status");
+const button = document.getElementById("enterBtn");
 
-    if(currentContent == "Enter the Metaverse"){
-        entered.textContent = "entered ";
-    }
-    else {
-        entered.textContent = "Entered Metaverse", entered.style.fontSize = "30px";
-    }
-}
+
+document.addEventListener("click", () => {
+    para.innerHTML = "<h1>Entered Metaverse</h1>";
+
+});
